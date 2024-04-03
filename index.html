@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div data-app id="main"></div>
+  <script>
+    window.$docsify = {
+      el: '#main',
+      name: '',
+      repo: '',
+      loadSidebar: true,  //开启自定义侧边栏，再定义_sidebar.md，每个目录可定义不同的侧边栏
+      loadNavbar: true,  //开启自定义导航栏，再定义_navbar.md，每个目录可定义不同的导航栏
+      coverpage: true,  //开启自定义封面再定义__coverpage.md，每个目录可定义不同的封面
+      coverpage: {      //指定封面
+        // '/': '_coverpage.md',
+        // '/zh-cn/': 'cover.md'
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
