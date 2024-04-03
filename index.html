@@ -9,23 +9,19 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
   <div data-app id="main"></div>
   <script>
     window.$docsify = {
       el: '#main',
       name: '',
       repo: '',
-      // loadSidebar: true,  //开启自定义侧边栏，再定义_sidebar.md，每个目录可定义不同的侧边栏
-      // loadNavbar: true,  //开启自定义导航栏，再定义_navbar.md，每个目录可定义不同的导航栏
-      // coverpage: true,  //开启自定义封面再定义__coverpage.md，每个目录可定义不同的封面
-      // coverpage: {      //指定封面
-      //   // '/': '_coverpage.md',
-      //   // '/zh-cn/': 'cover.md'
-      // }
+      loadSidebar: true,  //开启自定义侧边栏，再定义_sidebar.md，每个目录可定义不同的侧边栏
+      loadNavbar: true,  //开启自定义导航栏，再定义_navbar.md，每个目录可定义不同的导航栏
+      coverpage: true,  //开启自定义封面再定义__coverpage.md，每个目录可定义不同的封面
+      coverpage: {      //指定封面
+        // '/': '_coverpage.md',
+        // '/zh-cn/': 'cover.md'
+      }
     }
   </script>
   <!-- Docsify v4 -->
